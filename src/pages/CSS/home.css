@@ -1,0 +1,67 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.image-section {
+    position: relative;
+    background-image: url("../Asset/HomeBG.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 1400px; 
+    height: 700px; 
+    overflow: hidden;
+}
+
+.description-card {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content h1 {
+    font-size: 28px; 
+    margin-bottom: 10px;
+    color: #33cc99;
+    /* color: #fff; */
+}
+
+.card-content p {
+    font-size: 18px; 
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .image-section {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .description-card {
+        width: 90%;
+    }
+
+    .card-content h1 {
+        font-size: 24px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+    }
+}

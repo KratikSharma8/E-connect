@@ -1,0 +1,73 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  flex: 1; /* Allow cards to take available space */
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  color: #333;
+  font-size: 1.3rem; /* Adjust font size for smaller screens */
+  margin: 10px 0;
+}
+
+.card p {
+  color: #666;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.action-button {
+  flex: 1;
+  padding: 8px; /* Adjust padding for smaller screens */
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 8px; /* Adjust margin for smaller screens */
+}
+
+.action-button.recycle {
+  background-color: #357f5b;
+  color: white;
+  margin-top: 8px; /* Adjust margin for smaller screens */
+}
+
+.action-button.reuse {
+  background-color: #3b8ac5;
+  color: white;
+  margin-left: 8px; /* Adjust margin for smaller screens */
+}
+
+.action-button:hover {
+  background-color: #2a6143;
+}
+
+.action-button.reuse:hover {
+  background-color: #2d72a0;
+}
