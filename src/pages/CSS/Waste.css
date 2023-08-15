@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 10vh;
   flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
 }
 
@@ -14,7 +14,7 @@
   text-align: center;
   width: 300px;
   margin: 10px;
-  flex: 1; /* Allow cards to take available space */
+  /* flex: 1; Allow cards to take available space */
 }
 
 .card img {
@@ -71,3 +71,42 @@
 .action-button.reuse:hover {
   background-color: #2d72a0;
 }
+
+.dropdown-container {
+  margin: 70px;
+  margin-left: 800px;
+  display: flex;
+  align-items: center;
+  color: #2a6143;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+} */
+
+/* .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  flex: 1;
+} */
